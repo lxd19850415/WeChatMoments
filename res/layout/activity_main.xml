@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sandy.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <android.support.v4.widget.SwipeRefreshLayout  
+        android:id="@+id/id_swipe_ly"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent" >  
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+	</android.support.v4.widget.SwipeRefreshLayout>  
+
+</FrameLayout>
+
